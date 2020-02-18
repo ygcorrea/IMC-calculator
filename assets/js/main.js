@@ -26,7 +26,6 @@ form.addEventListener('submit', (event) => {
   const message = `Seu IMC é ${imc} (${imcLevel})`;
 
   setResult(message, true);
-  console.log(imc, imcLevel);
 });
 
 function getImcLevel(imc) {
@@ -37,7 +36,6 @@ function getImcLevel(imc) {
   if( imc >= 24.9) return level[3];
   if( imc >= 18.5) return level[4];
   if( imc < 18.5)  return level[5];
-  console.log('level', level);
   };
 
   function getImc(weight, height) {
