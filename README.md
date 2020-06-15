@@ -1,3 +1,4 @@
+https://ygcorrea.github.io/IMC-calculation/
 # IMC-calculation
 <h2> Calculadora de IMC </h2>
 <ul>Esse projeto foi feito utilizando JavaScript puro, HTML e CSS com o intuito de exercitar e fixar conceitos nos quais estou me aperfeiçoando.
